@@ -1,3 +1,2 @@
-# google-cloud-storage==2.1.0
 setuptools
-google-cloud-storage==2.1.0
+google-cloud-storage
