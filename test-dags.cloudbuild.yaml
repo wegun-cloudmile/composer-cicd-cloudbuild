@@ -8,7 +8,7 @@ steps:
     entrypoint: pip
     args: ["install", "-r", "requirements-test.txt", "--user"]
 
-  # run in python 3.8 which is latest version in Cloud Composer
+  # run in python 3.12 which is latest version in Cloud Composer
   - name: python:3.12-slim
     entrypoint: python3.12
     args: ["-m", "pytest", "-s", "dags/"]
