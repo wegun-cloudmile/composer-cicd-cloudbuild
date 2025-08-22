@@ -5,7 +5,6 @@ from shutil import copytree, ignore_patterns
 import tempfile
 from typing import List, Tuple
 
-# Imports the Google Cloud client library
 from google.cloud import storage
 
 
