@@ -1,3 +1,4 @@
 pytest
+apache-airflow-providers-google
 # pytest==7.0.1
 # cloud-composer-dag-test-utils==1.0.0
