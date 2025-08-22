@@ -1,7 +1,6 @@
 from __future__ import annotations
 from datetime import datetime
 import json
-import base64
 import logging
 
 from airflow.models.dag import DAG
